@@ -1,10 +1,15 @@
-# The Handmade Edit — Website v3
+# The Handmade Edit — Root-Image Version
 
-Pricing included:
-- 3-Figurine Paint Kit — $14
-- Personalized Name Kit — $14
-- Hand-Poured Candle — $28
+Use this version with your current GitHub repository layout, where the image files are already in the repository root.
 
-To update the live site, upload the contents of this ZIP to the root of the existing `the-handmade-edit` GitHub repository, replacing `index.html`, `styles.css`, and `script.js`, and adding the `assets` folder.
+Replace only:
+- index.html
+- styles.css
+- script.js
 
-Do not change your GitHub Pages or custom-domain settings.
+Leave these existing files alone:
+- CNAME
+- all image files already uploaded
+- logo.png
+
+Your custom domain and GitHub Pages settings do not need to be changed.
