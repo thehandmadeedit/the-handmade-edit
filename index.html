@@ -1,119 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Handmade Edit | DIY Paint Kits & Hand-Poured Candles</title>
-  <meta name="description" content="The Handmade Edit offers creative DIY paint kits and hand-poured candles made for gifting, creating, and cozy moments." />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Handmade Edit | DIY Paint Kits & Hand-Poured Candles</title>
+<meta name="description" content="Thoughtfully handmade DIY paint kits, personalized paint kits and hand-poured candles by The Handmade Edit.">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">The Handmade Edit</a>
-    <button class="menu-toggle" aria-label="Open menu">☰</button>
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#paint-kits">Paint Kits</a>
-      <a href="#candles">Candles</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header>
+  <a class="logo" href="#home"><img src="assets/logo.png" alt="The Handmade Edit by Reinz"></a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#paint">Paint Kits</a>
+    <a href="#personalized">Personalized</a>
+    <a href="#candles">Candles</a>
+    <a href="#about">Our Story</a>
+    <a class="nav-cta" href="#order">Order</a>
+  </nav>
+</header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <span class="eyebrow">HANDMADE • CREATIVE • GIFTABLE</span>
-        <h1>Little things, made to feel special.</h1>
-        <p>DIY paint kits and hand-poured candles created for cozy homes, thoughtful gifts, and moments of creativity.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#paint-kits">Shop Paint Kits</a>
-          <a class="button secondary" href="#candles">Shop Candles</a>
-        </div>
-      </div>
-      <div class="hero-card">
-        <div class="mini-card">
-          <span>🎨</span>
-          <h3>Create</h3>
-          <p>Open a kit and make it your own.</p>
-        </div>
-        <div class="mini-card">
-          <span>🕯️</span>
-          <h3>Unwind</h3>
-          <p>Light something warm and handmade.</p>
-        </div>
-      </div>
-    </section>
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="kicker">MADE BY HAND • MADE FOR YOU</p>
+    <h1>Creativity you can<br><em>hold onto.</em></h1>
+    <p class="lede">Playful DIY paint kits and warm hand-poured candles, thoughtfully made for gifting, creating and slowing down.</p>
+    <div class="actions">
+      <a class="btn dark" href="#paint">Explore Paint Kits</a>
+      <a class="btn light" href="#candles">Discover Candles</a>
+    </div>
+  </div>
+  <div class="hero-photo"><img src="assets/name-kit-box.jpeg" alt="Personalized DIY name painting kit"></div>
+</section>
 
-    <section class="section intro">
-      <span class="eyebrow">SHOP THE EDIT</span>
-      <h2>Made for play, gifting & cozy corners.</h2>
-      <p>Two handmade collections, one simple idea: everyday things should feel a little more personal.</p>
-    </section>
+<section class="marquee">
+  <span>DIY PAINT KITS</span><i>✦</i>
+  <span>HAND-POURED CANDLES</span><i>✦</i>
+  <span>PERSONALIZED GIFTS</span><i>✦</i>
+  <span>MADE WITH CARE</span>
+</section>
 
-    <section class="collection-grid">
-      <article class="collection-card paint" id="paint-kits">
-        <div class="collection-content">
-          <span class="eyebrow">DIY PAINT KITS</span>
-          <h2>Pick. Paint. Make it yours.</h2>
-          <p>Creative plaster figurine kits complete with paints and a brush — perfect for kids, gifts, parties, and quiet craft time.</p>
-          <div class="price-row">
-            <div><strong>$6</strong><span>1 figurine kit</span></div>
-            <div><strong>$14</strong><span>3 figurine kit</span></div>
-          </div>
-          <a class="text-link" href="#contact">Order a Paint Kit →</a>
-        </div>
-      </article>
+<section class="intro">
+  <p class="kicker">THE HANDMADE EDIT</p>
+  <h2>For little artists,<br>thoughtful gifters & cozy homes.</h2>
+  <p>Our edit brings together hands-on creativity and small-batch home fragrance in one warm, modern collection.</p>
+</section>
 
-      <article class="collection-card candle" id="candles">
-        <div class="collection-content">
-          <span class="eyebrow">HAND-POURED CANDLES</span>
-          <h2>Soft light. Warm mood.</h2>
-          <p>Small-batch candles poured by hand for effortless gifting, slow evenings, and beautiful spaces.</p>
-          <a class="text-link" href="#contact">Shop Candles →</a>
-        </div>
-      </article>
-    </section>
+<section id="paint" class="shop-section">
+  <div class="section-head">
+    <div><p class="kicker">PAINT YOUR OWN</p><h2>DIY Paint Kits</h2></div>
+    <p>Unbox, paint and make it completely yours. Each three-figurine kit includes three plaster pieces, three paint pots and one brush.</p>
+  </div>
 
-    <section class="reveal">
-      <div>
-        <span class="eyebrow">A LITTLE SURPRISE</span>
-        <h2>Paint & Reveal</h2>
-        <p>Turn painting into a tiny discovery. Selected pieces can feature hidden messages or surprise details that appear as the figurine is painted.</p>
-      </div>
-      <div class="reveal-badge">Paint.<br>Discover.<br>Reveal.</div>
-    </section>
+  <div class="product-grid">
+    <article class="product">
+      <img src="assets/animal-kit.jpeg" alt="Animal DIY paint kit">
+      <div><span>ANIMAL FRIENDS</span><h3>Animal Adventure Kit</h3><p>Three figurines, three paint pots & one brush.</p><strong>$14</strong></div>
+    </article>
 
-    <section class="features">
-      <div><span>✋</span><h3>Handmade</h3><p>Thoughtfully prepared in small batches.</p></div>
-      <div><span>🎁</span><h3>Giftable</h3><p>Easy-to-love options for birthdays and little celebrations.</p></div>
-      <div><span>✨</span><h3>Creative</h3><p>Products designed to turn ordinary moments into something memorable.</p></div>
-    </section>
+    <article class="product">
+      <img src="assets/dino-kit.jpeg" alt="Dinosaur DIY paint kit">
+      <div><span>ROAR & CREATE</span><h3>Dinosaur Kit</h3><p>Three figurines, three paint pots & one brush.</p><strong>$14</strong></div>
+    </article>
 
-    <section class="about" id="about">
-      <div class="about-card">
-        <span class="eyebrow">OUR STORY</span>
-        <h2>Welcome to The Handmade Edit.</h2>
-        <p>We create simple, beautiful handmade pieces that invite you to slow down, make something, gift something, or enjoy a cozy moment at home.</p>
-        <p>From playful DIY paint kits to hand-poured candles, every collection is designed to feel thoughtful, approachable, and special.</p>
-      </div>
-    </section>
+    <article class="product">
+      <img src="assets/mermaid-kit.jpeg" alt="Mermaid DIY paint kit">
+      <div><span>UNDER THE SEA</span><h3>Mermaid Kit</h3><p>Three figurines, three paint pots & one brush.</p><strong>$14</strong></div>
+    </article>
 
-    <section class="contact" id="contact">
-      <span class="eyebrow">LET'S CONNECT</span>
-      <h2>Ready to order?</h2>
-      <p>For now, connect your Instagram, TikTok or Etsy here. You can also replace the button below with your preferred ordering link.</p>
-      <a class="button primary" href="mailto:hello@thehandmadeedit.co">Email The Handmade Edit</a>
-      <p class="domain-note">thehandmadeedit.co</p>
-    </section>
-  </main>
+    <article class="product">
+      <img src="assets/space-kit.jpeg" alt="Space DIY paint kit">
+      <div><span>OUT OF THIS WORLD</span><h3>Space Explorer Kit</h3><p>Three figurines, three paint pots & one brush.</p><strong>$14</strong></div>
+    </article>
+  </div>
+</section>
 
-  <footer>
-    <div class="brand footer-brand">The Handmade Edit</div>
-    <p>DIY Paint Kits • Hand-Poured Candles</p>
-    <p>© <span id="year"></span> The Handmade Edit. All rights reserved.</p>
-  </footer>
+<section id="personalized" class="personalized">
+  <div class="personal-photo"><img src="assets/name-kit-tray.jpeg" alt="Personalized name letters ready to paint"></div>
+  <div class="personal-copy">
+    <p class="kicker">MADE JUST FOR THEM</p>
+    <h2>Paint their name.<br>Keep the memory.</h2>
+    <p>A personalized name painting experience made for birthdays, gifts, play dates and creative afternoons.</p>
+    <div class="price-tag">$14</div>
+    <a class="text-link" href="#order">Order a personalized kit →</a>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section class="gallery">
+  <img src="assets/ocean-kit.jpeg" alt="Ocean themed DIY paint kit">
+  <img src="assets/name-kit-box.jpeg" alt="Personalized name paint kit in gift box">
+  <img src="assets/mermaid-kit.jpeg" alt="Mermaid themed DIY paint kit">
+</section>
+
+<section id="candles" class="candle-section">
+  <div class="candle-copy">
+    <p class="kicker">THE COZY EDIT</p>
+    <h2>Poured slowly.<br>Enjoyed slowly.</h2>
+    <p>Hand-poured candles in warm, understated vessels designed to settle beautifully into your space.</p>
+    <div class="candle-price">$28</div>
+    <a class="btn cream" href="#order">Order a Candle</a>
+  </div>
+  <div class="candle-photo"><img src="assets/candles.jpeg" alt="Hand-poured candles from The Handmade Edit"></div>
+</section>
+
+<section class="values">
+  <div><b>01</b><h3>Handmade</h3><p>Prepared in small batches with a personal touch.</p></div>
+  <div><b>02</b><h3>Gift-ready</h3><p>Thoughtful little experiences made for sharing.</p></div>
+  <div><b>03</b><h3>Creative</h3><p>Designed to make everyday moments more memorable.</p></div>
+</section>
+
+<section id="about" class="about">
+  <p class="kicker">OUR STORY</p>
+  <h2>A little more meaning<br>in the things we make.</h2>
+  <p>The Handmade Edit is a collection of handmade pieces created around two simple pleasures: making something with your hands and making a space feel like home. From paint-your-own kits to hand-poured candles, every edit is meant to feel personal, joyful and easy to gift.</p>
+</section>
+
+<section id="order" class="order">
+  <p class="kicker">LET'S MAKE SOMETHING</p>
+  <h2>Ready to order?</h2>
+  <div class="order-prices">
+    <div><strong>$14</strong><span>3-Figurine Paint Kit</span></div>
+    <div><strong>$14</strong><span>Personalized Name Kit</span></div>
+    <div><strong>$28</strong><span>Hand-Poured Candle</span></div>
+  </div>
+  <p>Online checkout is coming soon. Until then, reach out directly for availability, personalization and orders.</p>
+  <a class="btn dark" href="mailto:hello@thehandmadeedit.co">Email to Order</a>
+  <p class="tiny">thehandmadeedit.co</p>
+</section>
+</main>
+
+<footer>
+  <img src="assets/logo.png" alt="The Handmade Edit">
+  <p>DIY Paint Kits • Personalized Kits • Hand-Poured Candles</p>
+  <p>© <span id="year"></span> The Handmade Edit</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
